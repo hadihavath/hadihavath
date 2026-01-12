@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10b981,020617&height=300&section=header&text=Muhammed%20Hadhi%20Havath&fontSize=50&fontAlignY=35&fontColor=ffffff&desc=Flutter%20Developer%20%7C%20Full%20Stack%20Engineer&descAlignY=55&descAlign=50&animation=fadeIn" alt="Header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10b981,020617&height=300&section=header&text=Muhammed%20Hadhi%20Havath&fontSize=50&fontAlignY=35&fontColor=ffffff&desc=Full%20Stack%20Developer%20%7C%20Flutter%20Engineer&descAlignY=55&descAlign=50&animation=fadeIn" alt="Header" width="100%"/>
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&background=00000000&center=true&vCenter=true&width=435&lines=Flutter+Developer;Mobile+App+Creator;Full+Stack+Engineer;Python+%26+Django;Open+Source+Contributor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&background=00000000&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Flutter+Expert;Mobile+App+Creator;Python+%26+Django;Open+Source+Contributor" alt="Typing SVG" />
   </a>
 </div>
 
@@ -33,11 +33,11 @@
         Hi, I'm <b>Muhammed Hadhi Havath</b>. I am a passionate technology enthusiast and a <b>Bachelor of Computer Application</b> graduate from Calicut University.
       </p>
       <p>
-        My ultimate goal is to contribute to the IT industry as a top-tier <b>Flutter Developer</b>. I merge coding proficiency with a passion for building beautiful, high-performance mobile applications.
+        My ultimate goal is to contribute to the IT industry as a top-tier <b>Full Stack Developer</b>. I merge robust backend architecture with a passion for building beautiful, high-performance mobile applications using <b>Flutter</b>.
       </p>
       <p>
-        🔭 Working on: <b>Cross-Platform Mobile Apps</b><br>
-        🌱 Learning: <b>Advanced Flutter & Architecture</b><br>
+        🔭 Working on: <b>Full Stack Web & Mobile Apps</b><br>
+        🌱 Learning: <b>Advanced System Architecture</b><br>
         📍 Location: <b>Calicut, India</b><br>
         💼 Status: <b>Open to Work</b>
       </p>
@@ -68,7 +68,7 @@
   <tr>
     <td width="33%" align="center" valign="top">
       <a href="https://ratetracker.in">
-                <img src="https://images.unsplash.com/photo-1589758438368-0ad531db3366?w=600&h=300&fit=crop&q=80" width="100%" alt="RateTracker.in" style="border-radius: 10px;">
+        <img src="https://images.unsplash.com/photo-1589758438368-0ad531db3366?w=600&h=300&fit=crop&q=80" width="100%" alt="RateTracker.in" style="border-radius: 10px;">
       </a>
       <br><br>
       <b>RateTracker.in</b>
@@ -104,3 +104,9 @@
     </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10b981,020617&height=100&section=footer" width="100%"/>
+</div>
