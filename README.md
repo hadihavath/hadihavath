@@ -109,18 +109,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hadihavath&show_icons=true&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=0d1117" alt="Hadhi's Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hadihavath&layout=compact&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=0d1117&langs_count=6" alt="Top Langs" height="150" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=hadihavath&theme=dark&ring=10b981&fire=10b981&currStreakLabel=10b981&background=0d1117&hide_border=true" alt="Streak" width="85%"/>
-</div>
-
 <br/>
 
 <div align="center">
