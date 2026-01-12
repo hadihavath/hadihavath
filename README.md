@@ -1,648 +1,128 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=300&section=header&text=Muhammed%20Hadhi%20Havath&fontSize=50&fontAlignY=35&fontColor=10b981&desc=Flutter%20Developer%20%7C%20Full%20Stack%20Engineer&descAlignY=55&descAlign=50&animation=fadeIn" alt="Header" width="100%"/>
+</div>
 
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammed Hadhi Havath - Portfolio</title>
-    <meta name="description" content="Portfolio of Muhammed Hadhi Havath - Aspiring Ethical Hacker and Developer">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <script src="https://unpkg.com/lucide@latest"></script>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&background=00000000&center=true&vCenter=true&width=435&lines=Flutter+Developer;Mobile+App+Creator;Full+Stack+Engineer;Python+%26+Django" alt="Typing SVG" />
+  </a>
+</div>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<div align="center">
+  <a href="https://www.linkedin.com/in/hadhi-havath-42865538b">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:hadihavath125@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://instagram.com/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+</div>
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
-                    colors: {
-                        slate: {
-                            950: '#020617',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        /* Custom scrollbar for Webkit browsers */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #020617; 
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #334155; 
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #475569; 
-        }
-    </style>
-</head>
-<body class="min-h-screen bg-slate-950 text-slate-300 font-sans selection:bg-emerald-500/30">
+<br/>
 
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 bg-transparent">
-        <div class="container mx-auto px-6 flex justify-between items-center">
-            <div class="text-2xl font-bold tracking-tighter text-emerald-400 flex items-center gap-2">
-                <i data-lucide="terminal" class="w-6 h-6"></i>
-                <span>MHH<span class="text-slate-100">.dev</span></span>
-            </div>
-            
-            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <a href="#about" class="hover:text-emerald-400 transition-colors">About</a>
-                <a href="#skills" class="hover:text-emerald-400 transition-colors">Skills</a>
-                <a href="#projects" class="hover:text-emerald-400 transition-colors">Projects</a>
-                <a href="#education" class="hover:text-emerald-400 transition-colors">Education</a>
-                <a href="resume/hadhi_havath.pdf" download class="px-5 py-2 rounded-full border border-emerald-500/50 text-emerald-400 hover:bg-emerald-500/10 transition-all flex items-center gap-2 group">
-                    Resume <i data-lucide="download" class="w-4 h-4 group-hover:translate-y-0.5 transition-transform"></i>
-                </a>
-            </div>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="55%" valign="top">
+      <h3>👨‍💻 About Me</h3>
+      <p>
+        Hi, I'm <b>Muhammed Hadhi Havath</b>. I am a passionate technology enthusiast and a <b>Bachelor of Computer Application</b> graduate from Calicut University.
+      </p>
+      <p>
+        My ultimate goal is to contribute to the IT industry as a top-tier <b>Flutter Developer</b>. I merge coding proficiency with a passion for building beautiful, high-performance mobile applications and scalable backend solutions.
+      </p>
+      <p>
+        🔭 Working on: <b>Cross-Platform Mobile Apps</b><br>
+        🌱 Learning: <b>Advanced Flutter & Architecture</b><br>
+        📍 Location: <b>Calicut, India</b><br>
+        💼 Status: <b>Open to Work</b>
+      </p>
+    </td>
+    <td width="45%" valign="center" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hadihavath&layout=compact&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=0d1117&langs_count=6" alt="Top Langs"/>
+    </td>
+  </tr>
+</table>
 
-            <button id="menu-btn" class="md:hidden text-slate-100">
-                <i data-lucide="menu" id="menu-icon"></i>
-            </button>
-        </div>
+<br/>
 
-        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-slate-900 border-b border-emerald-900/30 p-6 flex flex-col gap-4 shadow-xl">
-            <a href="#about" class="mobile-link text-left py-2 hover:text-emerald-400">About</a>
-            <a href="#skills" class="mobile-link text-left py-2 hover:text-emerald-400">Skills</a>
-            <a href="#projects" class="mobile-link text-left py-2 hover:text-emerald-400">Projects</a>
-            <a href="#education" class="mobile-link text-left py-2 hover:text-emerald-400">Education</a>
-            <a href="resume/hadhi_havath.pdf" download class="mt-2 text-center py-3 rounded bg-emerald-600/20 text-emerald-400 border border-emerald-600/50">
-                Download Resume
-            </a>
-        </div>
-    </nav>
+<h3 align="center">🛠️ Technical Arsenal</h3>
+<div align="center">
 
-    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6 overflow-hidden">
-        <div class="absolute top-20 right-0 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
-        <div class="absolute bottom-0 left-0 w-72 h-72 bg-blue-600/10 rounded-full blur-3xl -z-10"></div>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  
+  <br/>
+  
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  
+  <br/>
+  
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
-        <div class="container mx-auto max-w-5xl">
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="flex-1 space-y-6 text-center md:text-left">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium tracking-wide">
-                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-                        OPEN TO WORK
-                    </div>
-                    
-                    <h1 class="text-5xl md:text-7xl font-bold text-slate-100 leading-tight">
-                        Muhammed <br />
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
-                            Hadhi Havath
-                        </span>
-                    </h1>
-                    
-                    <p class="text-xl text-slate-400 max-w-2xl mx-auto md:mx-0 leading-relaxed">
-                        Enthusiastic professional aiming to become an <strong class="text-slate-200">Ethical Hacker</strong>. 
-                        Merging coding proficiency with a passion for cybersecurity to build innovative and secure IT solutions.
-                    </p>
+</div>
 
-                    <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
-                        <a href="#contact" class="px-8 py-3 rounded-full bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition-all shadow-[0_0_20px_rgba(16,185,129,0.3)]">
-                            Contact Me
-                        </a>
-                        <a href="resume/hadhi_havath.pdf" download class="px-8 py-3 rounded-full border border-slate-700 hover:border-emerald-500/50 hover:bg-emerald-500/5 text-slate-300 transition-all flex items-center gap-2">
-                            <i data-lucide="download" class="w-4 h-4"></i> Download CV
-                        </a>
-                    </div>
-                </div>
+<br/>
 
-                <div class="flex-1 flex justify-center md:justify-end">
-                    <div class="relative w-64 h-64 md:w-80 md:h-80 group">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500 to-cyan-500 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500 animate-pulse"></div>
-                        <div class="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-3xl opacity-30 group-hover:opacity-60 transition duration-500"></div>
-                        
-                        <img 
-                            src="images/havath.png" 
-                            alt="Muhammed Hadhi Havath"
-                            class="relative w-full h-full object-cover object-top rounded-3xl border-4 border-slate-900 shadow-2xl z-10"
-                            onerror="this.onerror=null;this.src='https://via.placeholder.com/400x400/0f172a/10b981?text=MHH';"
-                        />
-                        
-                        <div class="absolute -right-4 top-10 bg-slate-900 border border-emerald-500/30 px-3 py-1.5 rounded-full text-xs font-bold text-emerald-400 shadow-lg z-20">
-                            Ethical Hacking
-                        </div>
-                        <div class="absolute -left-4 bottom-10 bg-slate-900 border border-emerald-500/30 px-3 py-1.5 rounded-full text-xs font-bold text-emerald-400 shadow-lg z-20">
-                            Full Stack
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<h3 align="center">🚀 Featured Projects</h3>
+<table border="0" width="100%">
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://ratetracker.in">
+        <img src="https://via.placeholder.com/300x150/0d1117/10b981?text=RateTracker.in" width="100%" alt="RateTracker">
+      </a>
+      <br>
+      <b>RateTracker.in</b>
+      <br>
+      <font size="2">Live gold price tracker with real-time updates.</font>
+      <br>
+      <code>Django</code> <code>JS</code> <code>Tailwind</code>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://hadihavath.github.io/boutique_book/">
+        <img src="https://via.placeholder.com/300x150/0d1117/10b981?text=Boutique+Book" width="100%" alt="Boutique Book">
+      </a>
+      <br>
+      <b>Boutique Book</b>
+      <br>
+      <font size="2">Comprehensive management solution for boutiques.</font>
+      <br>
+      <code>Web Tech</code> <code>Management</code>
+    </td>
+    <td width="33%" align="center">
+      <a href="#">
+        <img src="https://via.placeholder.com/300x150/0d1117/10b981?text=Sign+Language+App" width="100%" alt="Sign Language App">
+      </a>
+      <br>
+      <b>Sign Language Interpreter</b>
+      <br>
+      <font size="2">Translates gestures to text using Computer Vision.</font>
+      <br>
+      <code>Python</code> <code>AI/ML</code> <code>CV</code>
+    </td>
+  </tr>
+</table>
 
-    <section id="about" class="py-20 bg-slate-900/50">
-        <div class="container mx-auto px-6 max-w-5xl">
-            <div class="mb-12 text-center">
-                <h2 class="text-3xl font-bold text-slate-100 mb-4">About Me</h2>
-                <div class="w-20 h-1 bg-emerald-500 mx-auto rounded-full"></div>
-            </div>
+<br/>
 
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6 text-slate-300 leading-relaxed">
-                    <p>
-                        I am a passionate technology enthusiast with a Bachelor of Computer Application degree from the College of Applied Science (IHRD) Thamarassery, affiliated with Calicut University.
-                    </p>
-                    <p>
-                        My ultimate goal is to contribute to the IT industry as an <strong>Ethical Hacker</strong>. 
-                        I am actively pursuing self-study in cybersecurity and AI technologies, constantly seeking opportunities to challenge myself and grow.
-                    </p>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-                        <div class="p-4 rounded-lg bg-slate-950 border border-slate-800">
-                            <h4 class="text-emerald-400 font-bold mb-1">Problem Solver</h4>
-                            <p class="text-xs text-slate-500">Ability to troubleshoot and resolve technical issues efficiently.</p>
-                        </div>
-                        <div class="p-4 rounded-lg bg-slate-950 border border-slate-800">
-                            <h4 class="text-emerald-400 font-bold mb-1">Team Player</h4>
-                            <p class="text-xs text-slate-500">Collaborative approach to working in diverse team environments.</p>
-                        </div>
-                        <div class="p-4 rounded-lg bg-slate-950 border border-slate-800">
-                            <h4 class="text-emerald-400 font-bold mb-1">Tenacious</h4>
-                            <p class="text-xs text-slate-500">Once committed to a project, I never quit until I see it through to the end.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-950 p-8 rounded-2xl border border-emerald-900/30">
-                    <h3 class="text-xl font-bold text-slate-100 mb-6 flex items-center gap-2">
-                        <i data-lucide="terminal" class="text-emerald-500 w-5 h-5"></i> Professional Interests
-                    </h3>
-                    <ul class="space-y-4">
-                        <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                            <span class="text-slate-300">Ethical Hacking & Cybersecurity</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                            <span class="text-slate-300">Artificial Intelligence & Integration</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                            <span class="text-slate-300">Software Development</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                            <span class="text-slate-300">Continuous Learning & Research</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hadihavath&show_icons=true&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=0d1117&count_private=true" alt="Hadhi's Stats" width="85%" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hadihavath&theme=dark&ring=10b981&fire=10b981&currStreakLabel=10b981&background=0d1117&hide_border=true" alt="Streak" width="85%"/>
+</div>
 
-    <section id="skills" class="py-20">
-        <div class="container mx-auto px-6 max-w-5xl">
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold text-slate-100 mb-2">Technical Arsenal</h2>
-                <p class="text-slate-400">Languages and tools I use to build and secure.</p>
-            </div>
+<br/>
 
-            <div class="grid md:grid-cols-2 gap-12 items-start">
-                <div class="space-y-8">
-                    <div>
-                        <h3 class="text-xl font-semibold text-emerald-400 mb-6 flex items-center gap-2">
-                            <i data-lucide="code" class="w-5 h-5"></i> Languages & Frameworks
-                        </h3>
-                        <div class="space-y-6">
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>Python</span>
-                                    <span class="text-slate-500">90%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>Node.js</span>
-                                    <span class="text-slate-500">80%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 80%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>React.js</span>
-                                    <span class="text-slate-500">85%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>JavaScript</span>
-                                    <span class="text-slate-500">80%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 80%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>Java</span>
-                                    <span class="text-slate-500">85%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>C / C++</span>
-                                    <span class="text-slate-500">75%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>HTML/CSS</span>
-                                    <span class="text-slate-500">85%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2 text-sm font-medium text-slate-300">
-                                    <span>Shell Scripting</span>
-                                    <span class="text-slate-500">70%</span>
-                                </div>
-                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-emerald-500 rounded-full transition-all duration-1000" style="width: 70%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl font-semibold text-emerald-400 mb-6 flex items-center gap-2">
-                            <i data-lucide="monitor" class="w-5 h-5"></i> Development & IDEs
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">VS Code</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">PyCharm</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Android Studio</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">XCode</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl font-semibold text-emerald-400 mb-6 flex items-center gap-2">
-                            <i data-lucide="pen-tool" class="w-5 h-5"></i> Design & QA
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Figma</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Adobe XD</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Postman</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Selenium</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="space-y-8">
-                    <div>
-                        <h3 class="text-xl font-semibold text-emerald-400 mb-6 flex items-center gap-2">
-                            <i data-lucide="shield-alert" class="w-5 h-5"></i> Security Arsenal
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-2 hover:border-emerald-500/50 transition-colors">
-                                <div class="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></div>
-                                <span class="text-slate-300 font-medium text-sm">Burp Suite</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Wireshark</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Nmap</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Metasploit</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Kali Linux</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">OWASP ZAP</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl font-semibold text-emerald-400 mb-6 flex items-center gap-2">
-                            <i data-lucide="server" class="w-5 h-5"></i> DevOps & Infrastructure
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Docker</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Nginx</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Gunicorn</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Git & GitHub</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Bash / Shell</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg hover:border-emerald-500/50 transition-colors">
-                                <span class="text-slate-300 font-medium text-sm">Putty / SSH</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl font-semibold text-emerald-400 mb-6 flex items-center gap-2">
-                            <i data-lucide="database" class="w-5 h-5"></i> Databases
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-2 hover:border-emerald-500/50 transition-colors">
-                                <div class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                                <span class="text-slate-300 font-medium text-sm">PostgreSQL</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-2 hover:border-emerald-500/50 transition-colors">
-                                <div class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                                <span class="text-slate-300 font-medium text-sm">MySQL</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-2 hover:border-emerald-500/50 transition-colors">
-                                <div class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                                <span class="text-slate-300 font-medium text-sm">SQLite</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-2 hover:border-emerald-500/50 transition-colors">
-                                <div class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                                <span class="text-slate-300 font-medium text-sm">Firebase</span>
-                            </div>
-                            <div class="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-2 hover:border-emerald-500/50 transition-colors">
-                                <div class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                                <span class="text-slate-300 font-medium text-sm">Firestore</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 bg-emerald-900/10 border border-emerald-500/20 rounded-xl mt-4">
-                        <h4 class="font-bold text-emerald-400 mb-1 text-sm">Tech Focus</h4>
-                        <p class="text-xs text-slate-400">
-                            Active experience with VPS management, Linux server environments, and database optimization.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-20 bg-slate-900/50">
-        <div class="container mx-auto px-6 max-w-5xl">
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold text-slate-100 mb-4">Featured Projects</h2>
-                <p class="text-slate-400">Recent work in development and AI.</p>
-            </div>
-
-            <div class="grid gap-8">
-                <div class="group relative bg-slate-950 border border-slate-800 rounded-2xl p-8 hover:border-emerald-500/50 transition-all duration-300">
-                    <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
-                        <i data-lucide="globe" class="w-12 h-12"></i>
-                    </div>
-                    
-                    <div class="relative z-10">
-                        <div class="flex justify-between items-start mb-4">
-                            <div>
-                                <span class="text-emerald-500 text-xs font-bold tracking-wider uppercase mb-1 block">Live Gold Price Tracker</span>
-                                <h3 class="text-2xl font-bold text-slate-100 flex items-center gap-2">
-                                    RateTracker.in
-                                    <i data-lucide="external-link" class="w-4 h-4 text-slate-500 group-hover:text-emerald-400 transition-colors"></i>
-                                </h3>
-                            </div>
-                            <a href="https://ratetracker.in" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-900 rounded-full hover:bg-emerald-500 text-emerald-500 hover:text-slate-950 transition-all">
-                                <i data-lucide="external-link" class="w-5 h-5"></i>
-                            </a>
-                        </div>
-
-                        <p class="text-slate-400 mb-6 max-w-2xl text-sm leading-relaxed">
-                            A web application built for tracking live gold prices, delivering real-time updates and analytics to users.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">Python Django</span>
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">JavaScript</span>
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">Tailwind CSS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group relative bg-slate-950 border border-slate-800 rounded-2xl p-8 hover:border-emerald-500/50 transition-all duration-300">
-                    <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
-                        <i data-lucide="smartphone" class="w-12 h-12"></i>
-                    </div>
-                    
-                    <div class="relative z-10">
-                        <div class="flex justify-between items-start mb-4">
-                            <div>
-                                <span class="text-emerald-500 text-xs font-bold tracking-wider uppercase mb-1 block">Boutique Management System</span>
-                                <h3 class="text-2xl font-bold text-slate-100 flex items-center gap-2">
-                                    Boutique Book
-                                    <i data-lucide="external-link" class="w-4 h-4 text-slate-500 group-hover:text-emerald-400 transition-colors"></i>
-                                </h3>
-                            </div>
-                            <a href="https://hadihavath.github.io/boutique_book/" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-900 rounded-full hover:bg-emerald-500 text-emerald-500 hover:text-slate-950 transition-all">
-                                <i data-lucide="external-link" class="w-5 h-5"></i>
-                            </a>
-                        </div>
-
-                        <p class="text-slate-400 mb-6 max-w-2xl text-sm leading-relaxed">
-                            A comprehensive management solution for boutiques. Check out the live demo to see the interface in action.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">Web Technologies</span>
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">Management Systems</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group relative bg-slate-950 border border-slate-800 rounded-2xl p-8 hover:border-emerald-500/50 transition-all duration-300">
-                    <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
-                        <i data-lucide="brain" class="w-12 h-12"></i>
-                    </div>
-                    
-                    <div class="relative z-10">
-                        <div class="flex justify-between items-start mb-4">
-                            <div>
-                                <span class="text-emerald-500 text-xs font-bold tracking-wider uppercase mb-1 block">College Final Year Project</span>
-                                <h3 class="text-2xl font-bold text-slate-100 flex items-center gap-2">
-                                    Sign Language Interpreter
-                                </h3>
-                            </div>
-                        </div>
-
-                        <p class="text-slate-400 mb-6 max-w-2xl text-sm leading-relaxed">
-                            A mobile application utilizing computer vision and machine learning to translate sign language gestures into text or speech.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">Python</span>
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">AI/ML</span>
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs rounded-full border border-emerald-500/20">Computer Vision</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="py-20">
-        <div class="container mx-auto px-6 max-w-3xl text-center">
-            <h2 class="text-3xl font-bold text-slate-100 mb-12">Education Journey</h2>
-            
-            <div class="relative border-l-2 border-emerald-900/50 ml-4 md:ml-0 md:pl-0 space-y-12">
-                <div class="relative md:flex items-center justify-between md:flex-row-reverse text-left md:text-right group">
-                    <div class="absolute -left-[9px] md:left-1/2 md:-ml-[9px] w-4 h-4 rounded-full bg-slate-900 border-2 border-emerald-500 group-hover:bg-emerald-500 transition-colors"></div>
-                    
-                    <div class="ml-8 md:mr-8 md:ml-0 md:w-[45%]">
-                        <h3 class="text-xl font-bold text-slate-100">Bachelor of Computer Application</h3>
-                        <p class="text-emerald-400 mb-1">College of Applied Science (IHRD) Thamarassery</p>
-                        <p class="text-slate-500 text-sm mb-2">Calicut University</p>
-                        <span class="inline-block px-2 py-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded text-xs">Completed (2021 - 2024)</span>
-                    </div>
-                    <div class="hidden md:block md:w-[45%]"></div>
-                </div>
-
-                </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-emerald-900/5">
-        <div class="container mx-auto px-6 max-w-4xl">
-            <div class="bg-slate-950 rounded-3xl p-8 md:p-12 border border-slate-800 shadow-2xl relative overflow-hidden">
-                <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl -z-10 transform translate-x-1/2 -translate-y-1/2"></div>
-                
-                <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-slate-100 mb-4">Let's Connect</h2>
-                    <p class="text-slate-400">
-                        I'm currently seeking new opportunities in Cybersecurity and Software Development. 
-                        Have a question or want to work together?
-                    </p>
-                </div>
-
-                <div class="grid md:grid-cols-3 gap-6">
-                    <a href="tel:+919656922125" class="flex flex-col items-center p-6 bg-slate-900/50 rounded-xl hover:bg-slate-900 transition-colors group border border-transparent hover:border-emerald-500/30">
-                        <div class="w-12 h-12 bg-emerald-500/10 rounded-full flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
-                            <i data-lucide="phone" class="w-5 h-5"></i>
-                        </div>
-                        <h3 class="text-slate-200 font-medium mb-1">Phone</h3>
-                        <p class="text-sm text-slate-400">+91 9656922125</p>
-                    </a>
-
-                    <a href="mailto:hadihavath125@gmail.com" class="flex flex-col items-center p-6 bg-slate-900/50 rounded-xl hover:bg-slate-900 transition-colors group border border-transparent hover:border-emerald-500/30">
-                        <div class="w-12 h-12 bg-emerald-500/10 rounded-full flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
-                            <i data-lucide="mail" class="w-5 h-5"></i>
-                        </div>
-                        <h3 class="text-slate-200 font-medium mb-1">Email</h3>
-                        <p class="text-sm text-slate-400">hadihavath125@gmail.com</p>
-                    </a>
-
-                    <div class="flex flex-col items-center p-6 bg-slate-900/50 rounded-xl border border-transparent">
-                        <div class="w-12 h-12 bg-emerald-500/10 rounded-full flex items-center justify-center text-emerald-400 mb-4">
-                            <i data-lucide="map-pin" class="w-5 h-5"></i>
-                        </div>
-                        <h3 class="text-slate-200 font-medium mb-1">Location</h3>
-                        <p class="text-sm text-slate-400">Calicut, India</p>
-                    </div>
-                </div>
-
-                <div class="mt-12 text-center">
-                    <a href="resume/hadhi_havath.pdf" download class="inline-flex items-center gap-2 px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full font-medium transition-all shadow-lg shadow-emerald-900/20">
-                        <i data-lucide="download" class="w-4 h-4"></i> Download Full Resume
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="py-8 bg-slate-950 border-t border-slate-900 text-center text-slate-500 text-sm">
-        <p>&copy; <span id="year"></span> Muhammed Hadhi Havath. All rights reserved.</p>
-    </footer>
-
-    <script>
-        // Initialize Icons
-        lucide.createIcons();
-
-        // Set Current Year
-        document.getElementById('year').textContent = new Date().getFullYear();
-
-        // Mobile Menu Toggle
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const menuIcon = document.getElementById('menu-icon');
-        let isMenuOpen = false;
-
-        menuBtn.addEventListener('click', () => {
-            isMenuOpen = !isMenuOpen;
-            mobileMenu.classList.toggle('hidden');
-            
-            // Re-render icon
-            menuBtn.innerHTML = '';
-            const i = document.createElement('i');
-            i.setAttribute('data-lucide', isMenuOpen ? 'x' : 'menu');
-            menuBtn.appendChild(i);
-            lucide.createIcons();
-        });
-
-        // Close mobile menu when clicking a link
-        document.querySelectorAll('.mobile-link').forEach(link => {
-            link.addEventListener('click', () => {
-                isMenuOpen = false;
-                mobileMenu.classList.add('hidden');
-                menuBtn.innerHTML = '';
-                const i = document.createElement('i');
-                i.setAttribute('data-lucide', 'menu');
-                menuBtn.appendChild(i);
-                lucide.createIcons();
-            });
-        });
-
-        // Navbar Scroll Effect
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 20) {
-                navbar.classList.add('bg-slate-950/90', 'backdrop-blur-md', 'border-b', 'border-emerald-900/30', 'py-4');
-                navbar.classList.remove('bg-transparent', 'py-6');
-            } else {
-                navbar.classList.remove('bg-slate-950/90', 'backdrop-blur-md', 'border-b', 'border-emerald-900/30', 'py-4');
-                navbar.classList.add('bg-transparent', 'py-6');
-            }
-        });
-    </script>
-</body>
-</html>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=100&section=footer" width="100%"/>
+</div>
