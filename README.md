@@ -53,12 +53,17 @@
 <h3 align="center">🛠️ Technical Arsenal</h3>
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,dart,react,html,css,tailwind&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=js,ts,kotlin,java,flutter,dart&theme=dark" />
     <br/><br/>
-    <img src="https://skillicons.dev/icons?i=python,django,nodejs,java,c,cpp&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,figma&theme=dark" />
     <br/><br/>
-    <img src="https://skillicons.dev/icons?i=postgres,mysql,firebase,docker,git,linux&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=python,django,nodejs,c,cpp&theme=dark" />
+    <br/><br/>
+        <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,docker,git,linux&theme=dark" />
   </a>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
+  <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" />
 </div>
 
 <br/>
@@ -104,6 +109,17 @@
     </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hadihavath&show_icons=true&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=0d1117" alt="Hadhi's Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hadihavath&layout=compact&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=0d1117&langs_count=6" alt="Top Langs" height="150" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.demolab.com/?user=hadihavath&theme=dark&ring=10b981&fire=10b981&currStreakLabel=10b981&background=0d1117&hide_border=true" alt="Streak" width="85%"/>
+</div>
 
 <br/>
 
