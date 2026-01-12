@@ -61,21 +61,3 @@ My ultimate goal is to contribute to the IT industry as an **Ethical Hacker**. I
 | **Sign Language Interpreter** | A mobile app utilizing computer vision to translate gestures into text/speech. | `Python` `AI/ML` `CV` |
 
 ---
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hadihavath&show_icons=true&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=020617" alt="Hadhi's Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hadihavath&layout=compact&theme=dark&icon_color=10b981&title_color=10b981&hide_border=true&bg_color=020617" alt="Hadhi's Top Languages" height="180" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hadihavath&theme=dark&ring=10b981&fire=10b981&currStreakLabel=10b981&background=020617&hide_border=true" alt="Hadhi's Streak" />
-</div>
-
----
-
-<div align="center">
-  <p>Visitor Count</p>
-  <img src="https://profile-counter.glitch.me/hadihavath/count.svg" alt="Visitor Count" />
-</div>
